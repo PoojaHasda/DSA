@@ -14,8 +14,8 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 
 
 class Solution {
-    public int maxProfit(int[] prices) {
-        // int sellingprice = prices.length;
+    public int maxProfit(int[] prices) { 
+        // int sellingprice = prices.length; 
         int max = 0;
         int buyingPrice = Integer.MAX_VALUE;
 
